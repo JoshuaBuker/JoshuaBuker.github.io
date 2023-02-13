@@ -1,0 +1,13 @@
+/* All formatting will be done here */
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.username {
+    font-weight: bold;
+}
