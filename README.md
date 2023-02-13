@@ -1,4 +1,4 @@
-_Welcome to my Portfolio Project_ 
+__Welcome to my Portfolio Project__ 
 
 This website will serve the purpose of proving my Fullstack Developer capabilities, as well as showcasing my Software Developer skills via project pages.
 
