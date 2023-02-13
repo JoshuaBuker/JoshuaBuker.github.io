@@ -1,13 +1,27 @@
 /* All formatting will be done here */
 
-.profile-picture {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    float: left;
-    margin-right: 20px;
+.background {
+    background-color: rgb(26, 26, 26);
+    background-image: linear-gradient(rgb(62, 110, 173), rgba(121, 203, 228, 0));
+    background-attachment: fixed;
 }
 
-.username {
+.main-logo {
+    width: 35%;
+    height: 35%;
+    background-color: rgba(83, 83, 83, 0.884);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 100px auto auto;
+    text-align: center;
+    border-radius: 8%;
+    border-color: antiquewhite;
+    border-width: 5px;
+    border-style: outset;
+}
+
+.main-title {
+    text-align: center;
     font-weight: bold;
+    color: rgb(238, 238, 238);
 }
