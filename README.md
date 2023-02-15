@@ -13,6 +13,7 @@ a new branch to show a timelien of my progress.
 
 ## TODO List
 
+- Add Mobile Compatibility
 - Implement Javascript functionality
 - Rebuild using React and more modern tools
 - Add backend data managment
