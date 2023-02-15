@@ -1,5 +1,18 @@
-__Welcome to my Portfolio Project__ 
+# Welcome to my Portfolio Project
 
-This website will serve the purpose of proving my Fullstack Developer capabilities, as well as showcasing my Software Developer skills via project pages.
+This site will be the culmination of my skills as a developer, either through the
+site itself or the projects found within.
 
-This is an ongoing project ( It will never be completed for I plan to regululary update it) and will serve as a great demonstation of what I am capable of.
+As I learn more advanced technologies, I plan to update this site according under
+a new branch to show a timelien of my progress.
+
+## Technologies used
+
+- HTML5
+- CSS
+
+## TODO List
+
+- Implement Javascript functionality
+- Rebuild using React and more modern tools
+- Add backend data managment
