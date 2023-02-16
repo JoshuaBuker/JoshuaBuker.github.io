@@ -27,12 +27,14 @@ body {
     margin: 0;
 }
 
+
 /*============================ Navigation Bar ===============================*/
 
 .nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     background-color: rgb(27, 33, 49);
     position: fixed;
     top: 0;
@@ -41,11 +43,14 @@ body {
     height: 50px;
     transition: transform 0.6s;
     flex-wrap: nowrap;
+    border-bottom: 3px groove rgba(0, 255, 255, 0.514);
+    box-shadow: 0 15px 20px 20px rgb(13, 18, 29);
     
 }
 
 .nav-hidden {
-    transform: translateY(-100px);
+    transform: translateY(-80px);
+    box-shadow: 0 30px 20px 20px rgb(13, 18, 29);
 }
 
 .heading-item {
@@ -57,53 +62,11 @@ body {
 }
 
 .heading-logo {
-    height: 75px;
-    width: 75px;
-    padding-top: 5px;
+    height: 65px;
+    width: 65px;
+    padding-top: 20px;
    padding-right: 27vw; 
    padding-left: 2vw; 
-}
-
-/*-----------------------------------------------------------------------*/
-/*=========================== Main Sections =============================*/
-/*-----------------------------------------------------------------------*/
-
-.sections {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/* ======================== Skills ===========================*/
-.section-skills {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 300px;
-    
-}
-
-/* ======================== Project ===========================*/
-.section-projects {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 300px;
-    background-color: rgb(39, 44, 51);
-}
-
-/* ======================== Contact ===========================*/
-.section-contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 300px;
 }
 
 /*============================ Introduction =============================*/
@@ -150,6 +113,92 @@ body {
     font-weight: bold;
     font-size: 1rem;
 
+}
+
+/*-----------------------------------------------------------------------*/
+/*=========================== Main Sections =============================*/
+/*-----------------------------------------------------------------------*/
+
+.sections-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+    margin: 0;
+    border: 3px dotted aqua;
+}
+
+.section-heading {
+    margin: 150px auto 50px;
+    color: rgb(182, 210, 243);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* ======================== Skills ===========================*/
+.section-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    
+}
+
+/* ======================== Project ===========================*/
+.section-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgb(39, 44, 51);
+}
+
+/* ======================== Contact ===========================*/
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+/* ========================= Footer ============================ */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(27, 33, 49);
+    bottom: 0;
+    margin: 100px 0 0;
+    width: 100%;
+    height: 50px;
+    flex-wrap: nowrap;
+    border-top: 3px groove rgba(0, 255, 255, 0.514);
+    box-shadow: 0 -15px 20px 20px rgb(13, 18, 29);
+}
+
+.footer-item {
+    padding-right: 10px;
+    color: rgb(197, 223, 223);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 
